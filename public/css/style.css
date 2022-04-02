@@ -1,9 +1,9 @@
 :root {
-  --primary: #f2e1f7;
-  --secondary: #aca1b9;
-  --tertiary: #988ab9;
-  --light-dark: #251e30;
-  --dark: #3e344e;
+  --primary: #e1eded;
+  --secondary: #f5751d;
+  --tertiary: #bdaff5;
+  --light-dark: #1f4034;
+  --dark: #4b6360;
   --border-radius: 0.3rem;
 }
 
@@ -88,7 +88,7 @@ input {
 
 .btn:hover {
   color: var(--primary);
-  background-color: var(--tertiary);
+  background-color: var(--dark);
   transform: translate(0, 0);
   box-shadow: 2px 2px var(--dark);
 }
