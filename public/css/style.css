@@ -116,11 +116,11 @@ input {
 }
 
 .right{
-  margin-left:auto;
+  margin:0 40px;
 }
 
 .hero {
-  padding: 3% 4%;
+  padding:3rem 4% 3% 4%;;
   background-color: var(--dark);
   color: var(--primary);
 }
@@ -318,7 +318,11 @@ input {
 .col-12 {
   flex: 0 0 100%;
 }
-
+@media screen and (min-width:500px) {
+  .right{
+    margin-left:auto;
+  }
+}
 /* col-sm */
 @media screen and (min-width: 640px) {
   .col-sm-1 {
