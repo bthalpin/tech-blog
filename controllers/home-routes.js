@@ -29,7 +29,7 @@ router.get('/post/:id', async (req, res) => {
     if (postData) {
       console.log(postData)
       const post = postData.get({ plain: true });
-      res.render('single-post', {posts,loggedIn:req.session.loggedIn});
+      res.render('single-post', {post,loggedIn:req.session.loggedIn});
     } else {
       res.status(404).end();
     }
