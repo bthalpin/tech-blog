@@ -7,7 +7,7 @@ const commentData = [
     body: "That's really cool",
   },
   {
-    userId: 1,
+    userId: 6,
     postId: 2,
     body: "Some good information",
   },
@@ -24,7 +24,7 @@ const commentData = [
   {
     userId: 3,
     postId: 5,
-    body: "Not sure I agree",
+    body: "I can't believe it",
   },
   {
     userId: 5,
@@ -37,9 +37,9 @@ const commentData = [
     body: "hmm",
   },
   {
-    userId: 2,
+    userId: 1,
     postId: 3,
-    body: "Very nice",
+    body: "Oh no",
   },
   {
     userId: 5,
