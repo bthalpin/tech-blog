@@ -1,9 +1,9 @@
 :root {
-  --primary: #e1eded;
-  --secondary: #f5751d;
-  --tertiary: #bdaff5;
-  --light-dark: #1f4034;
-  --dark: #4b6360;
+  --primary: #f5f5f5;
+  --secondary: #ededed;
+  --tertiary: #edc48b;
+  --light-dark: #2b5cab;
+  --dark: #3d7ac0;
   --border-radius: 0.3rem;
 }
 
@@ -66,8 +66,8 @@ input {
     padding: 10px;
 }
 
-.card-header h2 {
-  color: var(--primary);
+.card-header h2,.card-header h3 {
+  color: var(--tertiary);
 }
 
 .btn {
